@@ -1736,6 +1736,19 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.open-pdf{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 5px;
+		}
+
+		.personal-links{
+				display: flex;
+				justify-content: center;
+				margin-top: 30px;
+		}
 		@media screen and (max-width: 1024px) {
 
 			.container {
@@ -2721,6 +2734,7 @@ input, select, textarea {
 
 		#header header p {
 			color: #b7eadc;
+			text-align: left;
 		}
 
 		#header a {
@@ -3303,14 +3317,18 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
-			div.skill {
-				width: 129px;
-				height: 105px;
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+		
+			.skill i{
+				font-size: 2rem;
 			}
+
+			/* .icon-container{
+
+				display: flex;
+
+			} */
+			
+
 
 		/* Button */
 
@@ -3321,4 +3339,22 @@ input, select, textarea {
 				padding: 0;
 			}
 
+		
+
 	}
+
+
+.icon-container div.skill {
+	text-align: center;
+	width: 120px;
+	padding-bottom: 15px;
+	float: left;
+}
+section#three {
+	clear: both;
+}
+
+.icon-container i {
+	font-size: 45px;
+}
+
